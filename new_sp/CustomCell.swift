@@ -55,7 +55,7 @@ class CustomCell: UITableViewCell{
         super.awakeFromNib()
         // Initialization code
         //create instant of default label size
-       cutomCellSizes().cellTitleSize(<#T##Title: UILabel!##UILabel!#>)
+       cutomCellSizes().cellTitleSize(contactNameviewtb)
         
           //ViewTabVC
 //        contactNameviewtb.font = UIFont.boldSystemFontOfSize((c?.cellTitleLabelSize)!)
