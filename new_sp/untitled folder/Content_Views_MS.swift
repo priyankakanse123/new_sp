@@ -138,7 +138,7 @@ class Content_Views_MS: UIViewController, UITableViewDataSource, UITableViewDele
 //        cell.profileImage.layer.cornerRadius =   cell.profileImage.frame.size.height/2
 //        cell.profileImage.clipsToBounds = true
 //        cell.profileImage.contentMode = .ScaleAspectFill
-            customeCellObjct.createRoundImage(cell.profileImage)
+            //customeCellObjct.createRoundImage(cell.profileImage)
             cell.profileImage.image=UIImage(named :profPic )
         
         
@@ -275,7 +275,7 @@ class Content_Views_MS: UIViewController, UITableViewDataSource, UITableViewDele
         }
     }
     
-    func messageComposeViewController(controller: MFMessageComposeViewController!, didFinishWithResult result: MessageComposeResult) {
+    func messageComposeViewController(controller: MFMessageComposeViewController, didFinishWithResult result: MessageComposeResult) {
         //... handle sms screen actions
         self.dismissViewControllerAnimated(true, completion: nil)
     }

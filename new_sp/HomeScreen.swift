@@ -14,6 +14,7 @@ class HomeScreen: UIViewController , UITableViewDataSource , UITableViewDelegate
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.tabBarController?.tabBar.hidden = false
     }
 
     override func didReceiveMemoryWarning() {

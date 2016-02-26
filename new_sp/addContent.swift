@@ -78,7 +78,7 @@ class addContent: UIViewController , UITextViewDelegate {
         
         //add save Button
         
-        let sendButton = UIBarButtonItem(title: "Save", style: UIBarButtonItemStyle.Plain, target: self, action: "action")
+        let sendButton = UIBarButtonItem(title: "Save", style: UIBarButtonItemStyle.Plain, target: self, action: "saveAction")
         
         self.navigationItem.rightBarButtonItem = sendButton
        
@@ -86,13 +86,17 @@ class addContent: UIViewController , UITextViewDelegate {
 
         
     }
-    func action ()
+    func saveAction ()
     {
         print("hello")
+        self.performSegueWithIdentifier("saveContent", sender: self)
+        
     }
     
     
-    // textView textdidchange method
+    
+    
+        // textView textdidchange method
         func textViewDidBeginEditing(textView: UITextView) {
         print("hello")
         if descriptionTextView.textColor == UIColor.lightGrayColor() {

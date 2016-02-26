@@ -283,6 +283,12 @@ override func viewDidLoad()
     {
       picker.dismissViewControllerAnimated(true, completion: nil)
       cropView.imageToCrop = image
+//        let imageURL = info[UIImagePickerControllerReferenceURL] as! NSURL
+//        let imageName = imageURL.path!.lastPathComponent
+//        let documentDirectory = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).first! as String
+//        let localPath = documentDirectory.stringByAppendingPathComponent(imageName)
+
+
     }
     //cropView.setNeedsLayout()
   }
