@@ -39,6 +39,7 @@
 		0A5F8C771C61B707007A948F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F8C721C61B707007A948F /* ViewController.swift */; };
 		0A5F8C781C61B707007A948F /* CroppableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F8C731C61B707007A948F /* CroppableImageView.swift */; };
 		0A5F8C7B1C61CA5E007A948F /* grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5F8C7A1C61CA5E007A948F /* grey.png */; };
+		0A67E23F1C815D780050C107 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0A67E23E1C815D780050C107 /* .gitignore */; };
 		0A8C00401C75984400D3DBA2 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8C003F1C75984400D3DBA2 /* SplashScreenVC.swift */; };
 		0A8C00431C75996F00D3DBA2 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8C00411C75996F00D3DBA2 /* back.png */; };
 		0A8C00441C75996F00D3DBA2 /* splashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8C00421C75996F00D3DBA2 /* splashScreen.png */; };
@@ -110,6 +111,7 @@
 		0A5F8C721C61B707007A948F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A5F8C731C61B707007A948F /* CroppableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CroppableImageView.swift; sourceTree = "<group>"; };
 		0A5F8C7A1C61CA5E007A948F /* grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey.png; sourceTree = "<group>"; };
+		0A67E23E1C815D780050C107 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		0A8C003F1C75984400D3DBA2 /* SplashScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
 		0A8C00411C75996F00D3DBA2 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = images/back.png; sourceTree = "<group>"; };
 		0A8C00421C75996F00D3DBA2 /* splashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splashScreen.png; path = images/splashScreen.png; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				0A8C00591C75C95B00D3DBA2 /* libsqlite3.0.tbd */,
+				0A67E23E1C815D780050C107 /* .gitignore */,
 				0A04E1CB1C5F2B290047B3B7 /* ShoppingPad */,
 				0A04E1E31C5F2B2A0047B3B7 /* ShoppingPad_Test */,
 				0A04E1EE1C5F2B2B0047B3B7 /* ShoppingPadUITests */,
@@ -448,6 +451,7 @@
 				0A8C00431C75996F00D3DBA2 /* back.png in Resources */,
 				0A5F8C7B1C61CA5E007A948F /* grey.png in Resources */,
 				0A1DCD121C64872500E6426A /* Screenshot.png in Resources */,
+				0A67E23F1C815D780050C107 /* .gitignore in Resources */,
 				0A8C00441C75996F00D3DBA2 /* splashScreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
